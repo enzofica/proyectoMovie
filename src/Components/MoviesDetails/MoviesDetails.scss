@@ -1,0 +1,20 @@
+.imgDetails {
+  width: 500%;
+  position: relative;
+  height: 700px;
+  background-repeat: no-repeat;
+}
+
+.imgPosther {
+  width: 500%;
+  position: relative;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

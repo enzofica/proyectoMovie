@@ -1,0 +1,44 @@
+.movie {
+  width: 100%;
+  position: sticky;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+.movieInfo {
+  position: relative;
+  top: 10px;
+  left: 10%;
+  width: 500px;
+  font-size: medium;
+  margin: 10px auto;
+  padding: 5px;
+  font-weight: normal;
+  -webkit-text-stroke: 1px rgb(12, 218, 167);
+}
+
+.slider-movies {
+  height: 500px;
+
+  &__movie {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+
+  &-info {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    padding-bottom: 40px;
+  }
+
+  > div {
+    background-color: grey;
+    margin: 0 auto;
+    text-align: start;
+    width: 50%;
+    padding: 20px;
+  }
+}
